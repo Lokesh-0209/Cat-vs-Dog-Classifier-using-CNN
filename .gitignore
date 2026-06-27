@@ -1,0 +1,12 @@
+# Ignore the virtual environment
+.venv/
+env/
+venv/
+
+# Ignore the dataset files and zip archives
+data/
+*.zip
+
+# Ignore the trained model file (it's too large for a standard git commit)
+*.keras
+*.h5
